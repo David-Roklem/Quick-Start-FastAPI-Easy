@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "quick-start-fastapi-easy"
+version = "0.1.0"
+description = ""
+authors = ["David-Roklem <roklem@mail.ru>"]
+readme = "README.md"
+packages = [{include = "quick_start_fastapi_easy"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
